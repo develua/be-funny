@@ -1,0 +1,18 @@
+User-agent: Yandex
+Disallow: /css/
+Disallow: /img/
+Disallow: /js/
+Disallow: /other/
+Disallow: /*.php$
+Allow: /map.php
+Host: be-funny.ru
+
+User-agent: *
+Disallow: /css/
+Disallow: /img/
+Disallow: /js/
+Disallow: /other/
+Disallow: /*.php$
+Allow: /map.php
+
+Sitemap: http://be-funny.ru/sitemap.xml

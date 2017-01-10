@@ -1,0 +1,381 @@
+body {
+background: url(../img/bg.jpg)  0 0 repeat #FFF;
+font: 14px/20px 'Segoe UI', Helvetica, Arial, 'Sans-Serif';
+color: #666;
+cursor: default;
+}
+
+a, a:hover {
+color: #246B99;
+text-decoration: none;
+}
+
+.mainBr {
+margin-bottom: 15px;
+}
+
+.tooltipsy {
+margin: 10px 0;
+padding: 2px 10px;
+border-radius: 2px;
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+background: url(../img/bg_tool_tipsy.png) 0 0 repeat;
+font: 11px/20px Verdana, Tahoma, Arial, 'Sans-Serif';
+color: #FEFEFE;
+}
+
+/* Начало стилей Header */
+#header {
+width: 1000px;
+height: 120px;
+margin: 0 auto;
+}
+
+#logoBlock {
+width: 197px;
+height: 55px;
+float: left;
+background: url(../img/logo.png) 0 0 no-repeat;
+margin-top: 35px;
+}
+
+#logoBlock h1, h2 {
+text-indent: -99999px;
+}
+
+#logoBlock a {
+display: block;
+width: 202px;
+height: 57px;
+text-indent: -99999px;
+}
+
+#bannerTop {
+width: 468px;
+height: 60px;
+float: right;
+margin-top: 30px;
+border: 1px solid #636363;
+}
+/* Конец стилей Header */
+
+#wrapper {
+width: 1000px;
+overflow: auto;
+margin: 0 auto 30px auto;
+*padding-bottom: 30px; /* IE 7 */
+background: url(../img/bg_main.png) 0 0 repeat;
+border: 1px solid #636363;
+}
+
+/* Начало стилей MainBlock */
+#mainBlock {
+width: 680px;
+float: left;
+margin: 30px 15px 30px 30px;
+}
+
+.mainContent {
+position: relative;
+width: 611px;
+min-height: 40px;
+padding: 15px 15px 15px 54px;
+border-bottom: 1px solid #dae1e8;
+}
+
+.alignVertical {
+height: 40px;
+line-height: 39px;
+}
+
+#hideBox {
+position: absolute;
+top: 23px;
+left: 15px;
+width: 24px;
+height: 24px;
+background: url(../img/clear.png) 0 0 no-repeat;
+cursor: pointer;
+}
+
+#hideBox:hover {
+background: url(../img/clear_hover.png) 0 0 no-repeat;
+}
+
+#hideBoxOff {
+position: absolute;
+top: 23px;
+left: 15px;
+width: 24px;
+height: 24px;
+background: url(../img/clear_off.png) 0 0 no-repeat;
+cursor: pointer;
+}
+
+#hideBoxOff:hover {
+background: url(../img/clear_off_hover.png) 0 0 no-repeat;
+}
+
+.likeBox {
+position: absolute;
+top: 23px;
+left: 15px;
+width: 24px;
+height: 24px;
+background: url(../img/like.png) 0 0 no-repeat;
+cursor: pointer;
+}
+
+.likeBox:hover {
+background: url(../img/like_off.png) 0 0 no-repeat;
+}
+
+.likeBoxOff {
+position: absolute;
+top: 23px;
+left: 15px;
+width: 24px;
+height: 24px;
+background: url(../img/like_off.png) 0 0 no-repeat;
+cursor: pointer;
+}
+/* Конец стилей MainBlock */
+
+/* Начало стилей Navigation */
+#navigation {
+width: 680px;
+margin-top: 30px;
+font-size: 12px;
+font-weight: 900;
+text-align: center;
+cursor: default;
+}
+
+#navigation a {
+width: 100%;
+margin: 0 5px;
+padding: 4px 13px;
+background: url(../img/bg_navi.png) 0 0 repeat-x;
+color: #FEFEFE;
+text-decoration: none;
+}
+
+#navigation span {
+width: 100%;
+margin: 0 5px;
+padding: 4px 13px;
+background: url(../img/bg_navi_hover.png) 0 0 repeat-x;
+color: #FEFEFE;
+text-decoration: none;
+}
+/* Конец стилей Navigation */
+
+/* Начало стилей RightBlock */
+#rightBlock {
+width: 230px;
+float: right;
+margin: 30px 30px 30px 15px;
+background: #FFF;
+}
+
+.rightContent {
+width: 200px;
+margin: 0 auto;
+padding: 15px 0;
+border-bottom: 1px solid #dae1e8;
+font: 11px/20px Verdana, Tahoma, Arial, 'Sans-Serif';
+}
+
+.listBox {
+position: relative;
+top: 4px;
+left: -2px;
+width: 32px;
+height: 32px;
+background: url(../img/list.png) 0 0 no-repeat;
+float: left;
+}
+
+.rightContent a {
+display: block;
+*display: inline; /* IE 7 */
+height: 100%;
+}
+
+.rightContent span {
+color: #246B99;
+}
+
+#shareBlock, #bannerRight {
+text-align: center;
+}
+
+#bannerRight {
+padding: 20px 0;
+}
+/* Конец стилей RrightBlock */
+
+/* Начало стилей Footer */
+#footer {
+width: 100%;
+height: 60px;
+clear: both;
+padding-top: 30px;
+background: url(../img/footer.png) 0 0 repeat-x;
+border-top: 1px solid #202020;
+}
+
+#footer p {
+font: 11px/20px Verdana, Tahoma, Arial, 'Sans-Serif';
+color: #F6FFFF;
+text-align: center;
+}
+
+#footer span {
+border-bottom: 1px #F6FFFF dashed;
+cursor: pointer;
+}
+
+#wrapperFooter {
+width: 1000px;
+margin: 0 auto;
+}
+
+#mapBlock {
+float: right;
+width: 50px;
+height: 37px;
+margin-top: -40px;
+background: url(../img/map.png) 0 0 no-repeat;
+}
+
+#mapBlock:hover {
+background: url(../img/map_hover.png) 0 0 no-repeat;
+}
+
+#mapBlock a {
+position: absolute;
+text-indent: -99999px;
+width: 50px;
+height: 37px;
+}
+/* Конец стилей Footer */
+
+/* Начало стилей MapContent */
+.mapContent {
+width: 650px;
+overflow: auto;
+padding: 15px;
+background: #F6F6F6;
+border-bottom: 1px solid #dae1e8;
+}
+
+#mapTop, .mapMiddle {
+margin-bottom: 15px;
+overflow: auto;
+text-align: center;
+}
+
+#mapTop div {
+width: 320px;
+float: left;
+}
+
+.mapMiddle {
+width: 160px;
+float: left;
+}
+/* Конец стилей MapContent */
+
+#mainError  {
+width: 680px;
+overflow: auto;
+background: #FFF;
+border-bottom: 1px solid #dae1e8;
+}
+
+#errorImg {
+background: url('../img/error.jpg');
+width: 424px;
+height: 650px;
+margin: 50px auto;
+}
+
+/* Начало стилей Control */
+#mainControl {
+width: 650px;
+overflow: auto;
+padding: 15px;
+background: #F6F6F6;
+border-bottom: 1px solid #dae1e8;
+}
+
+#formControl {
+width: 400px;
+margin: 100px auto;
+}
+
+#formControl textarea {
+width: 400px;
+height: 180px;
+border: 1px solid #D9E0E7;
+}
+
+#formControl input {
+margin: 10px 5px;
+padding: 4px 7px;
+float: right;
+border: 0;
+background: url(../img/bg_tool_tipsy.png) 0 0 repeat-x;
+color: #FFF;
+font-size: 12px;
+cursor: pointer;
+}
+
+#formControl input:active {
+color: #E6E6E6;
+margin-top: 11px;
+}
+
+#formControl select {
+margin: 10px 10px 0 10px;
+padding: 1px 1px 2px 8px;
+border: 1px solid #D9E0E7;
+background: #FFF;
+color: #246B99;
+}
+
+#resControl {
+width: 370px;
+margin-bottom: 15px;
+background: #FFF;
+}
+
+.resOkCss {
+color: #090;
+padding: 15px;
+border: 1px solid #D9E0E7;
+text-align: center;
+}
+
+.errorCss {
+color: #900;
+padding: 15px;
+border: 1px solid #D9E0E7;
+text-align: center;
+}
+
+#generatorImg {
+width: 32px;
+height: 32px;
+background: url(../img/map_add.png) 0 0 repeat-x;
+}
+
+#generatorImg a {
+display: block;
+width: 32px;
+height: 32px;
+text-indent: -99999px;
+}
+/* Конец стилей Control */
